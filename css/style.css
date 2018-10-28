@@ -1,0 +1,312 @@
+	
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	background-image: url(../img/fondo3.jpg);
+	background-repeat: no-repeat;
+}
+
+#wrapper{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+/*margins and borders for all the elements of the page*/
+
+header,nav,
+aside,
+section,
+footer {
+  margin: auto auto 20px auto;
+  border-radius: 10px;
+}
+
+/*ETIQUETAS*/
+
+}
+/* body define la base de cuerpo de la pagina*/
+
+#header{
+
+}
+
+
+/* header es el Encabezado* de la pagina*/
+
+header{
+	width: 1200px;
+	height: 150px;
+	background: url(../img/logo.png) no-repeat;
+		background-position: left;
+		background-size: 150px,150px;
+}
+
+
+/* .table, nav, ul y li tags definen el formato del menu de lapagina*/
+
+/* clase para dar estructura de tabla y centrado a los elementos de la lista */
+.table {
+	overflow: hidden;
+   	display: inline;
+   	float:right;   
+	
+}
+
+/*this block is for background of the menu*/
+nav{
+	width: 1200px;
+	height: 50px;
+	background: white;
+	float: right;
+	
+}
+
+.tableV{
+    /*float: right;
+    width: 26%;*/
+    overflow: hidden;
+    display: all; ;   
+	margin: 0 auto;
+    width: 250px;
+	background: white;
+	height: 700px;
+	float: right;
+	border-radius: 10px;
+
+
+    
+}
+
+.tableV a{
+    background: black;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+
+
+}
+
+.tableV a:hover{
+    background-color: white;
+    color: black;
+}
+
+.tableV img{
+    float: left;
+    width: 70%;
+    border: 5px double;
+}
+
+/*this block is for background of the menu*/
+
+ul{
+	list-style: none;
+	text-align: center;	
+}
+
+li{
+	
+	display: inline;
+	padding: 10px;
+	background: black;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+	margin-right: 10px; 
+	text-decoration: none;
+	width: 140px;
+	overflow: hidden;
+	text-align: center;
+
+	
+}
+
+.tableV li{
+
+	display: block;
+	padding: 10px;
+	background: black;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset; 
+	float: none;
+	list-style-type: none;
+	margin: 10px;
+	
+}
+
+/*text format for headers used through out the page*/
+/*note that the font family needs to correspond to this line in the page*/
+/*<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>*/
+
+h1{
+	font-family: font-family: 'Oswald', sans-serif;
+	color: white;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: center;
+	 
+}
+
+h2{
+	font-family: font-family: 'Oswald', sans-serif;
+	color: black;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	 
+}
+
+h3{
+	font-family: font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	 
+}
+
+
+/*
+the following are page elements called as per their block
+*/
+
+/*side pane*/
+
+aside{
+	width: 250px;
+	background: white;
+	height: 700px;
+	margin-right: 23px;
+	float: left;
+
+
+}	 /* this makes it so the container is pushed to left*/
+.content script{
+
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;	/*border-radius: 10px;*/
+
+}
+
+
+
+.content a{
+
+	text-decoration: none;
+	color:white;
+	text-align: center;
+}
+
+
+/*clase para lista en aside*/
+
+.sidelist{
+	display: block;
+	margin-top:20px;
+	margin-right: 50px;
+	text-align: center;
+	text-decoration: none;
+
+	
+}
+
+/*imagenes en aside*/
+.sideimgs{
+	margin-top:20px;
+	margin-left: 40px;
+
+
+
+}
+
+/*main pane*/
+
+section{
+	width: 660px;
+	background: white;
+	height: 700px;
+	float: left; /* this makes it so the container is pushed to right*/
+	/*border-radius: 10px;*/
+}
+
+/*formatting for a regular paragraph*/
+p{
+	color: black;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 22px;
+	padding: 10px;
+	text-align: justify;
+}
+
+/*bottom part is the footer*/
+
+#footer{	
+		
+
+}
+
+footer{
+	
+	clear: both;
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+	float:left;
+	clear:both;
+	background: white; /* Old browsers */
+
+	
+}
+
+footer section{
+		
+		width: 700px;
+		height: 100px;
+		float:none;
+		background: white;
+		margin-top: 10px;
+
+}
+
+section #texto{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font size:20px;
+}
+
+footer img{
+
+	float: left;
+	display: inline;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+
+/*para el iframe de youtube*/
+
+
+iframe {
+	margin: 10px;
+    float: right;
+}
+
+
+/*para el mini slider*/
+
+#slidermin{
+	height: 50px;
+	width:100px;
+	padding: 10px
+	
+	
+}
+/*CLASES*/
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: blue; text-decoration: none; text-shadow: 0 0 13px blue;}
+.menu:active{color: blue; text-decoration: none;}
+
